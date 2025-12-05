@@ -1,0 +1,2 @@
+nmap -sS -T0 --scan-delay 5s <target>
+nmap -sS -T1 --scan-delay 200ms --max-retries 2 --top-ports 50 <target>
